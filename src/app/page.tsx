@@ -1,5 +1,5 @@
-import HeroSection from "@/src/components/home/HeroSection";
-import CorePrinciples from "@/src/components/home/CorePrinciples";
+import HeroSection from "@/components/home/HeroSection";
+import CorePrinciples from "@/components/home/CorePrinciples";
 
 export default function HomePage() {
   return (
