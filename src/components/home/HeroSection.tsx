@@ -9,7 +9,7 @@ export default function HeroSection() {
             {/* Background glow */}
             <div className="pointer-events-none absolute right-10 top-1/2 h-96 w-96 -translate-y-1/2 rounded-full bg-purple-950/10 blur-[120px]" />
 
-            <div className="relative mx-auto grid w-full max-w-[1200px] items-center gap-16 lg:grid-cols-2 lg:gap-12">
+            <div className="relative mx-auto grid w-full max-w-300 items-center gap-16 lg:grid-cols-2 lg:gap-12">
 
                 {/* Left content */}
                 <div className="flex flex-col items-start">
@@ -33,7 +33,7 @@ export default function HeroSection() {
                     </h1>
 
                     {/* Description */}
-                    <p className="mt-8 max-w-[390px] text-[18px] leading-[1.8] text-[#a1a1aa] sm:text-[19px]">
+                    <p className="mt-8 max-w-97.5 text-[18px] leading-[1.8] text-[#a1a1aa] sm:text-[19px]">
                         Understand the principles behind clean, maintainable, and scalable
                         software.
                     </p>
@@ -43,9 +43,9 @@ export default function HeroSection() {
 
                         <Link
                             href="/principles"
-                            className="group inline-flex min-h-[76px] items-center gap-8 rounded-lg bg-[#61e6d5] px-5 py-4 text-[14px] font-semibold text-[#071311] transition-all duration-200 hover:bg-[#7af0e1] hover:shadow-[0_0_30px_rgba(97,230,213,0.18)]"
+                            className="group inline-flex min-h-19 items-center gap-8 rounded-lg bg-[#61e6d5] px-5 py-4 text-[14px] font-semibold text-[#071311] transition-all duration-200 hover:bg-[#7af0e1] hover:shadow-[0_0_30px_rgba(97,230,213,0.18)]"
                         >
-              <span className="max-w-[105px] leading-5">
+              <span className="max-w-26.25 leading-5">
                 Explore
                 <br />
                 principles
