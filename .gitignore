@@ -43,5 +43,7 @@ next-env.d.ts
 # IDE
 .idea/
 
-# cache
-npm-cache/
+# npm cache
+**/npm-cache/
+**/.npm/
+npm-debug.log*
