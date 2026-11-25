@@ -23,9 +23,9 @@ interface NavigationItem {
 
 const navigationItems: NavigationItem[] = [
     { label: "Home", href: "/", icon: Sparkles },
-    { label: "Principles", href: "/principles", icon: BookOpen },
-    { label: "KISS", href: "/principles/kiss", icon: Zap },
-    { label: "YAGNI", href: "/principles/yagni", icon: CircleDot },
+    { label: "Principles", href: "/features/principles", icon: BookOpen },
+    { label: "KISS", href: "/features/principles/kiss", icon: Zap },
+    { label: "YAGNI", href: "/features/principles/yagni", icon: CircleDot },
     { label: "DRY", href: "/principles/dry", icon: Layers3 },
     { label: "SOLID", href: "/principles/solid", icon: ShieldCheck },
     { label: "Cheat Sheet", href: "/cheat-sheet", icon: FileCode2 },
