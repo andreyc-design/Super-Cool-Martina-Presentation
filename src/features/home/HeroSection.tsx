@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import { ArrowRight, Play } from "lucide-react";
-import CodePreview from "@/components/home/code-preview/CodePreview";
+import CodePreview from "@/features/home/code-preview/CodePreview";
 
 export default function HeroSection() {
     return (

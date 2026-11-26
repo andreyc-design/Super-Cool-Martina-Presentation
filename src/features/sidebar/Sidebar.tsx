@@ -23,11 +23,11 @@ interface NavigationItem {
 
 const navigationItems: NavigationItem[] = [
     { label: "Home", href: "/", icon: Sparkles },
-    { label: "Principles", href: "/features/principles", icon: BookOpen },
-    { label: "KISS", href: "/features/principles/kiss", icon: Zap },
-    { label: "YAGNI", href: "/features/principles/yagni", icon: CircleDot },
-    { label: "DRY", href: "/principles/dry", icon: Layers3 },
-    { label: "SOLID", href: "/principles/solid", icon: ShieldCheck },
+    { label: "Principles", href: "/principles", icon: BookOpen },
+    { label: "KISS", href: "/kiss", icon: Zap },
+    { label: "YAGNI", href: "/yagni", icon: CircleDot },
+    { label: "DRY", href: "/dry", icon: Layers3 },
+    { label: "SOLID", href: "/solid", icon: ShieldCheck },
     { label: "Cheat Sheet", href: "/cheat-sheet", icon: FileCode2 },
 ];
 
@@ -37,7 +37,7 @@ export default function Sidebar() {
     return (
         <aside className="sticky top-0 hidden h-screen w-[300px] shrink-0 flex-col border-r border-[#252932] bg-[#090b10] px-[22px] py-10 md:flex">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3">
+            <Link href="/super-cool-martina-presentation-new/public" className="flex items-center gap-3">
                 <div className="flex size-[38px] items-center justify-center rounded-xl border border-[#454b57] text-xl font-bold text-white">
                     P
                 </div>

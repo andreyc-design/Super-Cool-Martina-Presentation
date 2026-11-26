@@ -1,15 +1,6 @@
+import {ArrowLeft, ArrowRight, BookOpen, Lightbulb} from "lucide-react";
 
-"use client";
-
-import {
-    ArrowLeft,
-    ArrowRight,
-    BookOpen,
-    Check,
-    Lightbulb,
-} from "lucide-react";
-
-export default function YagniPage() {
+export function YagniPageContent() {
     return (
         <main className="min-h-screen border-x border-[#252b32] bg-[#080a0c] text-[#e8ebf0]">
             <article className="mx-auto w-full max-w-[1200px] px-8 py-12 lg:px-14">
@@ -421,7 +412,7 @@ export default function YagniPage() {
                     </a>
 
                     <a
-                        href="/dry"
+                        href="/super-cool-martina-presentation-new/src/features/dry"
                         className="group flex items-center justify-end gap-3 text-sm text-[#929ba9] transition hover:text-white"
                     >
                         <span className="text-right">
@@ -461,5 +452,5 @@ export default function YagniPage() {
                 </footer>
             </article>
         </main>
-    );
+    )
 }

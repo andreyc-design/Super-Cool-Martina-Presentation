@@ -51,7 +51,7 @@ const examples = [
     },
 ];
 
-export default function KissPage() {
+export function KissPageContent() {
     return (
         <article className="mx-auto w-full max-w-[1200px] px-8 py-12 text-[#e8ebf0] lg:px-14">
             {/* Header */}
