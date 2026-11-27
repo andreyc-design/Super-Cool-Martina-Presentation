@@ -1,3 +1,5 @@
+import { DryPageContent } from '@/features/dry/DryPage'
+
 export default function  DryPage () {
-    return <div></div>
+    return <DryPageContent/>
 }

@@ -1,4 +1,4 @@
-import {ArrowLeft, ArrowRight, BookOpen, Lightbulb} from "lucide-react";
+import {ArrowLeft, ArrowRight, BookOpen, Lightbulb, Check} from "lucide-react";
 
 export function YagniPageContent() {
     return (
